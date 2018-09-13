@@ -12,6 +12,7 @@ def alphabetize(arr)
      num_arr = sentence.split("").collect { |letter|
        esperanto_sorter[letter]
      }
+     
   }
     
 end
