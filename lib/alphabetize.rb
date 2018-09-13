@@ -8,7 +8,7 @@ def alphabetize(arr)
     esperanto_sorter[letter] = esp_alphabet.index(letter)
   }
   
-  arr.each { |sentence|
+  arr.sort_by { |sentence|
      num_arr = sentence.split("").collect { |letter|
        esperanto_sorter[letter]
      }
