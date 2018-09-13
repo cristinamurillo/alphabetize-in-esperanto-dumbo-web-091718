@@ -9,7 +9,7 @@ def alphabetize(arr)
   }
   
   arr.each { |sentence|
-     sentence.split("").collect { |letter|
+     num_arr = sentence.split("").collect { |letter|
        esperanto_sorter[letter]
      }
   }
