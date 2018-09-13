@@ -12,7 +12,6 @@ def alphabetize(arr)
      sentence.split("").collect { |letter|
        
      }
-      
   }
     
 end
